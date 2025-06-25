@@ -1,0 +1,36 @@
+name: baddies_ai_task
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  awesome_flutter_extensions: ^1.3.0
+  stylish_bottom_bar: ^1.1.0
+  dropdown_button2: ^2.3.9
+  font_awesome_flutter: ^10.8.0
+  toggle_switch: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+flutter-assets:
+  auto-generate: false
+  assets-path: assets
+  output-path: lib/core/
+  ignore-ext: false
