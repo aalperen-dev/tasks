@@ -1,0 +1,9 @@
+[submodule "heraninda_task"]
+	path = heraninda_task
+	url = https://github.com/aalperen-dev/heraninda_task.git
+[submodule "choira_task"]
+	path = choira_task
+	url = https://github.com/aalperen-dev/choira_task.git
+[submodule "baddies_ai_task"]
+	path = baddies_ai_task
+	url = https://github.com/aalperen-dev/baddies_ai_task.git
